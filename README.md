@@ -1,5 +1,6 @@
 # weather
-weatherapp
+                                                            功能概述
+
 1、用户进入App后要选择所要查询的省，点击所选省份后弹出该省的市级地区，接着用户点击所选市，弹出该市的县级地区，再次选择后出现该县的天气情况。HTTP请求调用了sendOKHTTPRequest（）方法，handleProvinceResponse（）、handleCityResponse（）、handleCountyResponse（）用于解析和处理服务器返回的省级、市级和县级数据，使用JSONArray和JSONObject将数据解析出来。
 
 2、在省级和县级地区展示页面可以通过返回按钮或多页滑动的效果返回上层页面。
