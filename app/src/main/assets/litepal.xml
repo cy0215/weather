@@ -1,0 +1,10 @@
+<litepal>
+
+    <dbname value = "weather_app"/>
+    <version value = "1"/>
+    <list>
+        <mapping class = "com.example.dell.weatherapp.db.Province"/>
+        <mapping class = "com.example.dell.weatherapp.db.City"/>
+        <mapping class="com.example.dell.weatherapp.db.County"/>
+    </list>
+</litepal>
